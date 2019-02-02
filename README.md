@@ -7,6 +7,7 @@ md形式で記事を書いている人に限る。
 ```sh 
 sh hatena.sh
 ```
+![デモ](https://cdn-ak.f.st-hatena.com/images/fotolife/r/rasukarusan/20190203/20190203002203.gif)
 
 ## スクリプト実行後のディレクトリ
 ```sh 
