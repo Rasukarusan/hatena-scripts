@@ -1,11 +1,12 @@
 # 概要
-はてぶの全記事を画像込みでローカルにダウンロードする
-md形式で記事を書いている人に限る。
 
-# 使い方
+- get_articles.sh(はてぶ記事全取得)
+- post_entry.sh(下書き投稿)
+
+# get_articles.sh(はてぶ記事全取得)
 
 ```sh 
-sh hatena.sh
+sh get_articles.sh
 ```
 ![デモ](https://cdn-ak.f.st-hatena.com/images/fotolife/r/rasukarusan/20190203/20190203002203.gif)
 
