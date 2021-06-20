@@ -32,5 +32,6 @@ main() {
   local title=$1
   local content=$2
   entry "$title" "$content" | curl -s -u ${ID}:${API_KEY} -X POST https://blog.hatena.ne.jp/${ID}/${BLOG_ID}/atom/entry --data-binary @-
+  open "https://blog.hatena.ne.jp/${ID}/${ID}.hatenablog.com/drafts"
 }
 main "$@"
